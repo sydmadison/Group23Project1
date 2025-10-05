@@ -1,35 +1,84 @@
 <html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KHAANA · Healthy Catering Services</title>
+  <style>
+    :root {
+      --ink: #222222;
+      --muted: #747474;
+      --sand: #f6f6f5;
+      --leaf: #2e7d32;
+      --sage: #8fbf8f;
+      --card: #ffffff;
+      --border: #e8e8e8;
+    }
+    html, body { margin:0; padding:0; background: var(--sand); color: var(--ink); }
+    body { font-family: Inter, Arial, Helvetica, sans-serif; line-height: 1.6; }
+    header { padding: 28px 20px 22px; border-bottom: 2px solid var(--sage); background: var(--card); }
+    .brand { font-family: Georgia, "Times New Roman", serif; font-size: 30px; letter-spacing: .4px; }
+    .brand em { color: var(--leaf); font-style: italic; }
+    .tagline { color: var(--muted); font-size: 15px; margin-top: 6px; }
+    main { max-width: 980px; margin: 0 auto; padding: 28px 20px 32px; }
+    h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; margin: 16px 0 8px; }
+    h1 { font-size: 26px; } h2 { font-size: 20px; } h3 { font-size: 18px; }
+    .lead { font-size: 18px; margin-bottom: 14px; }
+    .pills { display:flex; flex-wrap:wrap; gap: 12px 14px; margin: 8px 0 18px; }
+    .pill { display:inline-block; padding: 7px 12px; border-radius: 999px; background: #e9f3ea; color: var(--leaf); font-size: 12px; font-weight: 600; letter-spacing:.2px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin-top: 6px; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 16px; }
+    .role { font-weight: bold; }
+    .muted { color: var(--muted); }
+    .small { font-size: 12px; } .big { font-size: 18px; }
+    .serif { font-family: Georgia, "Times New Roman", serif; }
+    .picwrap { aspect-ratio: 16/10; background: #eef4ef; border-radius: 12px; display:flex; align-items:center; justify-content:center; overflow:hidden; margin-bottom: 12px; }
+    .picwrap img { width:100%; height:100%; object-fit:cover; }
+    .lists { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap: 24px; margin-top: 8px; }
+    .footer { border-top: 1px solid var(--border); background: var(--card); padding: 14px 20px; }
+    a { color: var(--leaf); }
+    .btn { display:inline-block; padding: 9px 14px; border: 1px solid var(--leaf); border-radius: 12px; text-decoration: none; }
+    .underline { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">KHAANA <em>Healthy Catering Services</em></div>
+    <div class="tagline">Healthy catering for every occasion.</div>
+  </header>
 
-<h1 align="left">KHAANA <i style="color:#2e7d32;">Healthy Catering Services</i></h1>
-<p id="contentParagraph" style="font-family: Inter, Arial, Helvetica, sans-serif ; font-size: 13pt; color: #747474;"> Healthy catering for every occasion</p>
+  <main>
+    <section>
+
 <body bgcolor="#f6f6f5">
 
 
 <h2>Customer Testimonials</h2>
 <table border="border=0.1;">
 <tr>
-<td><img src="C:\Users\Sydney Madison\OneDrive - purdue.edu\Fall 2025\mgmt 382\project 1\wedding service.jpg" alt="Wedding Service Image" style="width:200px;height:200px;"></td>
+<td><img src="wedding service.jpg" alt="Wedding Service Image" style="width:200px;height:200px;"></td>
 <td><p id="contentParagraph" style="font-family: Inter, Arial, Helvetica, sans-serif ; font-size: 13pt; color: black;"> "Our guests could not stop talking about the food! Everything was beautifully presented from the fresh salads to the elegantly plated fruit platters. Planning food for a wedding is normally stressful, but the Khaana team made planning the menu so easy and stress-free. If I ever get remarried, I'll definitely use Khaana again!"<br />
 <p id="contentParagraph" style="font-family: Inter, Arial, Helvetica, sans-serif ; font-size: 12pt; color: #2e7d32;"> <b>Robyn Banks</b><br />
 <i>Wedding</i><br />
 5 stars</p></td>
 </tr>
 <tr>
-<td><img src="C:\Users\Sydney Madison\OneDrive - purdue.edu\Fall 2025\mgmt 382\project 1\outdoor celebration.jpg" alt="Outdoor Celebration Image" style="width:200px;height:200px;" ></td>
+<td><img src="outdoor celebration.jpg" alt="Outdoor Celebration Image" style="width:200px;height:200px;" ></td>
 <td><p id="contentParagraph" style="font-family: Inter, Arial, Helvetica, sans-serif ; font-size: 13pt; color: black;"> "I have hosted quite a few events and worked with many companies, but working with the Khaana team was by far one of the smoothest experiences I've ever had. The food was very flavorful and well-presented, and the staff was so efficient with setting up and serving. I can't wait to have the opportunity to work with Khaana for my next event."<br />
 <p id="contentParagraph" style="font-family: Inter, Arial, Helvetica, sans-serif ; font-size: 12pt; color: #2e7d32;"> <b>Sonny Day</b><br />
 <i>Outdoor Celebration</i><br />
 5 stars</p></td>
 </tr>
 <tr>
-<td><img src="C:\Users\Sydney Madison\OneDrive - purdue.edu\Fall 2025\mgmt 382\project 1\corporate lunch.jpg" alt="Corporate Lunch Image" style="width:200px;height:200px;" ></td>
+<td><img src="corporate lunch.jpg" alt="Corporate Lunch Image" style="width:200px;height:200px;" ></td>
 <td><p id="contentParagraph" style="font-family: Inter, Arial, Helvetica, sans-serif ; font-size: 13pt; color: black;"> "This is the fourth time our company has used Khaana to cater our event, and the team and food was just as incredible as the previous three times we've used them. The staff was very professional and went the extra mile to make sure that everything we needed was taken care of. They had a variety of healthy menu options that satisfied even the pickiest of eaters among our staff. Thank you Khaana team for another great food and service experience!"<br />
 <p id="contentParagraph" style="font-family: Inter, Arial, Helvetica, sans-serif ; font-size: 12pt; color: #2e7d32;"><b>Noah Lott</b><br />
 <i>Corporate Lunch</i><br />
 5 stars</p></td>
 </tr>
 <tr>
-<td><img src="C:\Users\Sydney Madison\OneDrive - purdue.edu\Fall 2025\mgmt 382\project 1\grad party.jpg" alt="Grad Party Image" style="width:200px;height:200px;" ></td>
+<td><img src="grad party.jpg" alt="Grad Party Image" style="width:200px;height:200px;" ></td>
 <td><p id="contentParagraph" style="font-family: Inter, Arial, Helvetica, sans-serif ; font-size: 13pt; color: black;"> "I can't say enough good things about Khaana! Working with Khaana was an absolutely amazing experience for my son's graduation party. His restricted diet makes it hard to find food that is healthy and fits his dietary needs, but Khaana went above and beyond preparing food that not only fit his dietary needs, but was healthy and delicious that all of the guests enjoyed."<br />
 <p id="contentParagraph" style="font-family: Inter, Arial, Helvetica, sans-serif ; font-size: 12pt; color: #2e7d32;"><b>Carrie Oakley</b><br />
 <i>Grad Party</i><br />
@@ -40,8 +89,9 @@
 <h2>Links and Contact</h2>
 
 <p id="contentParagraph" style="font-family: Inter, Arial, Helvetica, sans-serif ; font-size: 12pt; color: black;">Want to hear more? Visit our Yelp page here: <a href="https://www.yelp.com/" target="_blank">Yelp.com</a></p>
-<p id="contentParagraph" style="font-family: Inter, Arial, Helvetica, sans-serif ; font-size: 12pt; color: black;"><a href="https://github.com/sydmadison/Khaanapage5/blob/3a793b5daae37dbeae038f725b6938835a053f08/khaana%20info%20download.png">Download</a> our infographic </p>
 
+<p id="contentParagraph" style="font-family: Inter, Arial, Helvetica, sans-serif ; font-size: 12pt; color: black;">Download our infographic:<a href="khaana info download.png" download="khaana info download.png" </p>
+  
 <p id="contentParagraph" style="font-family: Inter, Arial, Helvetica, sans-serif ; font-size: 12pt; color: black;">
 <ul style="font-family: Inter, Arial, Helvetica, sans-serif ; font-size: 12pt; color: black;">
 <li>Did you use Khaana for an event?
